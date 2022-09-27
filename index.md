@@ -1,5 +1,10 @@
 # Hello, world!
 ![Image](https://media-exp1.licdn.com/dms/image/C5616AQE0Um6qdrp35A/profile-displaybackgroundimage-shrink_350_1400/0/1661916433626?e=1669852800&v=beta&t=BDGCfl1Dy7-UPU9LQF--_H8F1io3lQIJCG4kXCt1Btg)
+
+---
+## Lab Reports
+1. [Lab Report 1](https://shreyaspasumarthi.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+2. [Lab Report 1](lab-report-1-week-0.html)
 ## Introduction
 My name is **Shreyas Pasumarthi** and I'm a junior at the *University of California, San Diego* majoring in *Mathematics-Computer Science*.
 
