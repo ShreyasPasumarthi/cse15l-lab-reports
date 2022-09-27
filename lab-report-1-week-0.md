@@ -1,1 +1,2 @@
-![Picture of Shreyas](main.jpg)
+# Lab Report 1, Week 0
+![Screenshot](screenshotscreenshot.png)
