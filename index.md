@@ -10,7 +10,7 @@
 My name is **Shreyas Pasumarthi** and I'm a junior at the *University of California, San Diego* majoring in *Mathematics-Computer Science*.
 
 > Here are some fun facts about me:
-1. I've lived in Fort Lauderdale, Florida, Las Vegas, Nevada, and San Diego, California
+1. I've lived in Fort Lauderdale, FL, Las Vegas, NV, and San Diego, CA
 2. I like to snorkel and read about algorithmic ethics
 3. I want to pursue a career building technology that has a positive impact on society
 4. I play the Kalimba (thumb piano)
