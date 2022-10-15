@@ -66,3 +66,45 @@ The handleRequest() method was called with the argument /search?s=CSE. Since the
 
 ---
 # Part 2
+
+## Bug 1 - Array reverseInPlace()
+---
+The failure inducing input was: {1, 2, 3}. 
+My test code was : 
+```
+ @Test
+ public void testReversedIPMult() {
+   int[] input = {1, 2, 3};
+   ArrayExamples.reverseInPlace(input);
+   assertArrayEquals(new int[]{3,2,1}, input);
+ }
+ ```
+
+The symptom was that the array ended with a 3 instead of a 1. This can be seen in the error message below
+```
+1) testReversedIPMult(ArrayTests)
+arrays first differed at element [2]; expected:<1> but was:<3>
+```
+
+The bug in the code was that the code would use the index of an element that had already been reversed to reverse the array. For example, the array {1,2,3} had been changed to {3,2,3} and the last element 3 needed to be reversed. The code would make arr[2] = arr[1], which is now 3 instead of 1 because the code had already been run on arr[1]. This is why the bug caused the symptom of the array being {3, 2, 3} when returned instead of {3, 2, 1}
+
+The code fix I did is below:
+```
+ // Changes the input array to be in reversed order
+ static void reverseInPlace(int[] arr) {
+   for(int i = 0; i < arr.length/2; i += 1) {
+     int temp = arr[i];
+     arr[i] = arr[arr.length - i - 1];
+     arr[arr.length - i - 1] = temp;
+   }
+ }
+  ```
+
+## Bug 2
+---
+
+The failure-inducing input for this test was a list that contained {"himinion, "byeminion", "hibye"} and a StringChecker that checked whether a string contained the string "minion" or not. 
+
+The symptom was that the test failed and the returned array was {"byeminion", "himinion"} instead of {"himionion", "byeminion"}. The test failed because the order was not preserved.
+
+The bug was that the elements are inserted into the front of the result ArrayList at all times, which means that the order is not preserved. This resulted in the test array being in flipped order and therefore, caused the symptom.
