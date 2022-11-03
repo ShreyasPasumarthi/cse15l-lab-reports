@@ -6,6 +6,7 @@
 1. [Lab Report 0](https://shreyaspasumarthi.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 2. [Lab Report 1](https://shreyaspasumarthi.github.io/cse15l-lab-reports/lab-report-1-week1.html)
 3. [Lab Report 2](https://shreyaspasumarthi.github.io/cse15l-lab-reports/lab-report-2-week3.html)
+4. [Lab Report 3](https://shreyaspasumarthi.github.io/cse15l-lab-reports/lab-report-1-week5.html)
 
 ## Introduction
 My name is **Shreyas Pasumarthi** and I'm a junior at the *University of California, San Diego* majoring in *Mathematics-Computer Science*.
